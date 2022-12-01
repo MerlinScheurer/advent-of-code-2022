@@ -1,0 +1,16 @@
+{
+  "name": "advent-of-code-results",
+  "version": "1.0.0",
+  "description": "My results of adventofcode.com",
+  "license": "MIT",
+  "type":"module",
+  "scripts": {
+    "1": "node ./1/index.js",
+    "2": "node ./2/index.js",
+    "3": "node ./3/index.js",
+    "format": "prettier --write \"**/*.{js,md}\""
+  },
+  "devDependencies": {
+    "prettier": "^2.8.0"
+  }
+}
